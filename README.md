@@ -21,12 +21,12 @@ with the name of the hospital that has the best (i.e. lowest) 30-day mortality f
 in that state. The hospital name is the name provided in the Hospital.Name variable. The outcomes can
 be one of "heart attack", "heart failure" or "pneumonia". Hospitals that do not have data on a particular
 outcome should are excluded from the set of hospitals when deciding the rankings.  
-<i>Handling ties</i> If there is a tie for the best hospital for a given outcome, then the hospital names are sorted in alphabetical order and the first hospital in that set is chosen.  
+<i>Handling ties</i>: If there is a tie for the best hospital for a given outcome, then the hospital names are sorted in alphabetical order and the first hospital in that set is chosen.  
 
 <b>Sample output</b>  
 
-> source("best.R")  
-> best("TX", "heart attack")  
+> >source("best.R")  
+> >best("TX", "heart attack")  
 [1] "CYPRESS FAIRBANKS MEDICAL CENTER"  
 > best("TX", "heart failure")  
 [1] "FORT DUNCAN MEDICAL CENTER"  
