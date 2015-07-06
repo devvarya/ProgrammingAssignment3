@@ -25,8 +25,8 @@ outcome should are excluded from the set of hospitals when deciding the rankings
 
 <b>Sample output</b>  
 
-> >source("best.R")  
-> >best("TX", "heart attack")  
+> source("best.R")  
+> best("TX", "heart attack")  
 [1] "CYPRESS FAIRBANKS MEDICAL CENTER"  
 > best("TX", "heart failure")  
 [1] "FORT DUNCAN MEDICAL CENTER"  
@@ -39,7 +39,7 @@ Error in best("BB", "heart attack") : invalid state
 > best("NY", "hert attack")  
 Error in best("NY", "hert attack") : invalid outcome  
 
-Code saved for this function to a file named best.R.
+Code saved for this function to a file named <b><i>best.R</i></b>
 
 <\b>3. Ranking hospitals by outcome in a state<\b> Involves writing a function called <b>rankhospital<\b> that takes three arguments: the 2-character abbreviated name of a
 state (state), an outcome (outcome), and the ranking of a hospital in that state for that outcome (num).
