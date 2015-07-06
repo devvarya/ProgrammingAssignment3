@@ -20,24 +20,24 @@ outcome name. The function reads the outcome-of-care-measures.csv file and retur
 with the name of the hospital that has the best (i.e. lowest) 30-day mortality for the specied outcome
 in that state. The hospital name is the name provided in the Hospital.Name variable. The outcomes can
 be one of "heart attack", "heart failure" or "pneumonia". Hospitals that do not have data on a particular
-outcome should are excluded from the set of hospitals when deciding the rankings.
+outcome should are excluded from the set of hospitals when deciding the rankings.  
 <i>Handling ties</i> If there is a tie for the best hospital for a given outcome, then the hospital names are sorted in alphabetical order and the first hospital in that set is chosen.  
 
-<b>Sample output<\b>  
+<b>Sample output</b>  
 
-> source("best.R")
-> best("TX", "heart attack")
-[1] "CYPRESS FAIRBANKS MEDICAL CENTER"
-> best("TX", "heart failure")
-[1] "FORT DUNCAN MEDICAL CENTER"
-> best("MD", "heart attack")
-[1] "JOHNS HOPKINS HOSPITAL, THE"
-> best("MD", "pneumonia")
-[1] "GREATER BALTIMORE MEDICAL CENTER"
-> best("BB", "heart attack")
-Error in best("BB", "heart attack") : invalid state
-> best("NY", "hert attack")
-Error in best("NY", "hert attack") : invalid outcome
+> source("best.R")  
+> best("TX", "heart attack")  
+[1] "CYPRESS FAIRBANKS MEDICAL CENTER"  
+> best("TX", "heart failure")  
+[1] "FORT DUNCAN MEDICAL CENTER"  
+> best("MD", "heart attack")  
+[1] "JOHNS HOPKINS HOSPITAL, THE"  
+> best("MD", "pneumonia")  
+[1] "GREATER BALTIMORE MEDICAL CENTER"  
+> best("BB", "heart attack")  
+Error in best("BB", "heart attack") : invalid state  
+> best("NY", "hert attack")  
+Error in best("NY", "hert attack") : invalid outcome  
 
 Code saved for this function to a file named best.R.
 
