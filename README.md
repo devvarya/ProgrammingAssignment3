@@ -2,7 +2,7 @@
 
 ###Introduction
 
-The data for this assignment come from the Hospital Compare web site (http://hospitalcompare.hhs.gov)
+The data for this assignment come from the Hospital Compare web site [http://hospitalcompare.hhs.gov](http://hospitalcompare.hhs.gov)
 run by the U.S. Department of Health and Human Services. The purpose of the web site is to provide data and
 information about the quality of care at over 4,000 Medicare-certied hospitals in the U.S. This dataset es-
 sentially covers all major U.S. hospitals. This dataset is used for a variety of purposes, including determining
