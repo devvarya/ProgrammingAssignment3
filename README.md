@@ -15,13 +15,13 @@ for heart attacks, heart failure, and pneumonia for over 4,000 hospitals.
 
 <b>1. Plot the 30-day mortality rates for heart attack </b>
 
-<b>2. Find the best hospital in a state </b> Involves writing a function called <b>best<\b> that takes two arguments: the 2-character abbreviated name of a state and an
+<b>2. Find the best hospital in a state </b>: Involves writing a function called <b>best</b> that takes two arguments: the 2-character abbreviated name of a state and an
 outcome name. The function reads the outcome-of-care-measures.csv file and returns a character vector
 with the name of the hospital that has the best (i.e. lowest) 30-day mortality for the specied outcome
 in that state. The hospital name is the name provided in the Hospital.Name variable. The outcomes can
 be one of "heart attack", "heart failure" or "pneumonia". Hospitals that do not have data on a particular
 outcome should are excluded from the set of hospitals when deciding the rankings.
-<i>Handling ties<\i> If there is a tie for the best hospital for a given outcome, then the hospital names are sorted in alphabetical order and the first hospital in that set is chosen.  
+<i>Handling ties</i> If there is a tie for the best hospital for a given outcome, then the hospital names are sorted in alphabetical order and the first hospital in that set is chosen.  
 
 <b>Sample output<\b>  
 
